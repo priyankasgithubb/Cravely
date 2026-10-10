@@ -4,6 +4,8 @@
 
 Cravely is an AI-driven kitchen companion built to eliminate food waste, simplify meal prep, and make home cooking effortless. Powered by Google's Gemini models, Cravely analyzes available pantry items, respects dietary needs, and generates personalized recipes on demand.
 
+**Live Demo:** [https://cravely-brown.vercel.app/](https://cravely-brown.vercel.app/)
+
 ## Features
 
 - User registration and login
@@ -21,7 +23,7 @@ Cravely is an AI-driven kitchen companion built to eliminate food waste, simplif
 - Save favorite recipes to dedicated collection
 - Detailed recipe views (ingredients, step-by-step instructions, macros, cooking tips)
 - Responsive layout & modern UI
-- MongoDB / PostgreSQL database for storing user accounts and pantry items
+- PostgreSQL database for storing user accounts and pantry items
 
 ## Tech Stack
 
@@ -38,7 +40,7 @@ Cravely is an AI-driven kitchen companion built to eliminate food waste, simplif
 
 - Node.js
 - Express.js
-- PostgreSQL (Neon) / MongoDB
+- PostgreSQL (Neon)
 - `@google/genai` (Gemini SDK)
 - JSON Web Tokens (JWT)
 - bcryptjs
