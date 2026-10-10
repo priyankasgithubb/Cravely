@@ -1,0 +1,3 @@
+/* App-level styling is handled by Tailwind utilities and index.css. */
+#root { min-height: 100vh; }
+@import "tailwindcss";
